@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Chats">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/materialToolbarchat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:menu="@menu/menu"
+            app:title="WhatsApp"
+            app:popupTheme="@style/MyPopupMenu"
+            app:titleTextAppearance="@style/ToolbarTitleBold"
+            app:titleTextColor="@color/green" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/searchchatbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="15dp"
+            app:cardElevation="0dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            app:cardBackgroundColor="@color/gray"
+            app:cardCornerRadius="25dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="13dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="3dp"
+                    android:src="@drawable/cearchglass"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Search contacts and chats"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="15sp"
+                    android:textColor="@color/litegray"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:scrollbars="none"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:focusable="true"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="wrap_content"
+                        app:cardCornerRadius="30dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="All"
+                            android:background="@color/white"
+                            android:padding="6dp"
+                            android:paddingStart="15dp"
+                            android:paddingEnd="15dp"
+                            android:textSize="12sp"/>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:focusable="true"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="wrap_content"
+                        app:cardCornerRadius="30dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Unread Msg"
+                            android:padding="6dp"
+                            android:background="@color/white"
+                            android:paddingStart="15dp"
+                            android:paddingEnd="15dp"
+                            android:textSize="12sp"/>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:focusable="true"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="wrap_content"
+                        app:cardCornerRadius="30dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Favourates"
+                            android:padding="6dp"
+                            android:background="@color/white"
+                            android:paddingStart="15dp"
+                            android:paddingEnd="15dp"
+                            android:textSize="12sp"/>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:focusable="true"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="wrap_content"
+                        app:cardCornerRadius="30dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Groups"
+                            android:padding="6dp"
+                            android:background="@color/white"
+                            android:paddingStart="15dp"
+                            android:paddingEnd="15dp"
+                            android:textSize="12sp"/>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:focusable="true"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="wrap_content"
+                        app:cardCornerRadius="30dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pined Contacts"
+                            android:padding="6dp"
+                            android:background="@color/white"
+                            android:paddingStart="15dp"
+                            android:paddingEnd="15dp"
+                            android:textSize="12sp"/>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:focusable="true"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:layout_width="wrap_content"
+                        app:cardCornerRadius="30dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="+"
+                            android:background="@color/white"
+                            android:padding="3.5dp"
+                            android:textStyle="bold"
+                            android:paddingStart="15dp"
+                            android:paddingEnd="15dp"
+                            android:textSize="15sp"/>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/chatrecyclerview"
+                android:nestedScrollingEnabled="false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:id="@+id/chatlottie"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:visibility="visible"
+                android:orientation="vertical"
+                android:layout_marginTop="200dp"
+                android:layout_height="wrap_content">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    app:lottie_rawRes="@raw/letachat"
+                    app:lottie_loop="true"
+                    app:lottie_autoPlay="true"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/litegray"
+                    android:gravity="center"
+                    android:layout_marginTop="7dp"
+                    android:text="Add Your friends and start conversation🗣️"/>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/line"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray"/>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/endtoend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:drawableLeft="@drawable/lock"
+                android:drawablePadding="15dp"
+                android:text="Your personal messages are "/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10sp"
+                    android:textColor="@color/green"
+                    android:textStyle="bold"
+                    android:text="end-to-end encrypted."/>
+
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:layout_height="360dp"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

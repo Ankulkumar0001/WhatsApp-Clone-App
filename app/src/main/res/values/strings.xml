@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WhatsApp Clone</string>
+    <!-- Replace this with your actual Web Client ID from Firebase Console -->
+    <string name="default_web_client_id">YOUR_WEB_CLIENT_ID_HERE.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

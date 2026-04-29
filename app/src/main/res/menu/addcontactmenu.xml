@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/newbroadcast"
+        android:title="New broadcast"/>
+
+    <item
+        android:id="@+id/contactsetting"
+        android:title="Contact setting"/>
+    <item
+        android:id="@+id/Inviteafriend"
+        android:title="Invite a friend"/>
+    <item
+        android:id="@+id/contacts"
+        android:title="Contacts"/>
+
+    <item
+        android:id="@+id/refresh"
+        android:title="Refresh"/>
+
+    <item
+        android:id="@+id/help"
+        android:title="Help"/>
+
+</menu>

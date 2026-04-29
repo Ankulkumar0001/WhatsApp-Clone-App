@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpwithPhoneActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:padding="30dp"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/whatsapp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="What'sapp"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            app:endIconMode="clear_text"
+            android:layout_marginTop="15dp"
+            app:startIconDrawable="@drawable/inputuser"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/black"
+                android:padding="15dp"
+                android:textSize="15sp"
+                android:inputType="text"
+                android:hint="Enter Your Name" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            app:endIconMode="clear_text"
+            android:layout_marginTop="15dp"
+            app:startIconDrawable="@drawable/email"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:padding="15dp"
+                android:hint="Enter Your Mobile Number"
+                android:inputType="number" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            app:endIconMode="password_toggle"
+            android:layout_marginTop="15dp"
+            app:startIconDrawable="@drawable/passwordlock"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:padding="15dp"
+                android:textSize="15sp"
+                android:hint="Create Your Password"
+                android:textColor="@color/black"
+                android:inputType="textPassword" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            app:endIconMode="password_toggle"
+            android:layout_marginTop="15dp"
+            app:startIconDrawable="@drawable/passwordlock"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:padding="15dp"
+                android:textSize="15sp"
+                android:hint="Re-enter Your Password"
+                android:textColor="@color/black"
+                android:inputType="textPassword" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/alreadyacountphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Already have Account?"
+            android:layout_marginTop="15dp"
+            android:textSize="11sp"
+            android:textColor="@color/blue"
+            android:gravity="end"/>
+
+        <Button
+            android:id="@+id/signupbtnwithmobile"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:text="SIGN UP"
+            android:backgroundTint="@color/green"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/green"
+                android:drawableLeft="@drawable/lock"
+                android:drawablePadding="10dp"
+                android:text="end-to-end encrypted"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/signupwithemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="11sp"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/blue"
+        android:text="Sign Up with Email ID"
+        android:textStyle="normal"/>
+
+</RelativeLayout>

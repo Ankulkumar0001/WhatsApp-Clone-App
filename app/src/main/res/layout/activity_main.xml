@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Logout"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/writestatus"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:cardBackgroundColor="@color/gray"
+        app:cardCornerRadius="10dp"
+        android:visibility="visible"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/addconatctbtn"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/metaai"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/metaai" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/addconatctbtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        app:cardBackgroundColor="@color/green"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/addconatctbtnimage"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/addcontact" />
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="15dp"
+        app:cardCornerRadius="60dp"
+        app:cardElevation="0dp"
+        app:cardBackgroundColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp">
+
+           <androidx.cardview.widget.CardView
+               android:layout_width="wrap_content"
+               android:layout_weight="1"
+               app:cardElevation="0dp"
+               app:cardBackgroundColor="@color/white"
+               app:cardCornerRadius="50dp"
+               android:layout_height="wrap_content">
+
+               <LinearLayout
+                   android:id="@+id/chats"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:paddingTop="8dp"
+                   android:paddingBottom="5dp"
+                   android:orientation="vertical">
+
+                   <ImageView
+                       android:id="@+id/chatbtn"
+                       android:layout_width="20dp"
+                       android:layout_height="20dp"
+                       android:layout_marginBottom="5dp"
+                       android:src="@drawable/comment" />
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Chats"
+                       android:textSize="12sp"
+                       android:textStyle="bold" />
+
+               </LinearLayout>
+
+           </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="50dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/status"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="5dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/statusbtn"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/status" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Updates"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="50dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/communities"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="5dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/communitybtn"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/group" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Community"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="50dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/calls"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="5dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/callbtn"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginBottom="5dp"
+                        android:src="@drawable/voicecall" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Calls"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

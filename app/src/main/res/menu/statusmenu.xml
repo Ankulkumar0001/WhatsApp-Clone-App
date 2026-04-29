@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/statussearch"
+        android:title="Search"
+        android:icon="@drawable/cearchglass"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/statuscreatechannel"
+        android:title="Create Channel"/>
+
+    <item
+        android:id="@+id/statusprivacy"
+        android:title="Status privacy" />
+
+    <item
+        android:id="@+id/statusstarred"
+        android:title="Starred"/>
+
+    <item
+        android:id="@+id/statusadpre"
+        android:title="Ad preference" />
+
+    <item
+        android:id="@+id/statussetting"
+        android:title="Setting" />
+
+</menu>

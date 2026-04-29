@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "494398756975",
+    "project_id": "fir-practice-app-6c7f2",
+    "storage_bucket": "fir-practice-app-6c7f2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494398756975:android:baeb17b55d6ac2e4b3159a",
+        "android_client_info": {
+          "package_name": "com.example.whatsapp_clone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBha_VBmqXbSbVuz-U-75BdFjP7PDi3jQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

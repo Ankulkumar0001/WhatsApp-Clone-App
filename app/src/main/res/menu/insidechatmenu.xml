@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/insidechat_newgroup"
+            android:title="New group" />
+        <item
+            android:id="@+id/viewprofile"
+            android:title="View profile" />
+
+        <item
+            android:id="@+id/search"
+            android:title="Search" />
+        <item
+            android:id="@+id/medialinkanddocs"
+            android:title="Media,links and docs" />
+
+        <item
+            android:id="@+id/mutenoti"
+            android:title="Mute Notification" />
+
+        <item
+            android:id="@+id/unmutenoti"
+            android:title="Unmute Notification"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/disappearingmsg"
+            android:title="Disappearing messages" />
+
+        <item
+            android:id="@+id/chattheme"
+            android:title="Chat theme" />
+
+    </group>
+
+    <group android:id="@+id/group2">
+        <item
+            android:id="@+id/more"
+            android:title="More"
+            app:showAsAction="never">
+
+            <menu>
+                <item
+                    android:id="@+id/report"
+                    android:title="Report" />
+
+                <item
+                    android:id="@+id/blockchat"
+                    android:title="Block" />
+
+                <item
+                    android:id="@+id/unblockchat"
+                    android:visible="false"
+                    android:title="Unblock" />
+
+                <item
+                    android:id="@+id/clearchat"
+                    android:title="Clear chat" />
+
+                <item
+                    android:id="@+id/Exportchat"
+                    android:title="Export chat" />
+
+                <item
+                    android:id="@+id/addsortcut"
+                    android:title="Add sortcut" />
+
+                <item
+                    android:id="@+id/addtolist"
+                    android:title="Add to list" />
+            </menu>
+        </item>
+    </group>
+
+</menu>

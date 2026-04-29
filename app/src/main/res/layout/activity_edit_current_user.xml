@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Edit_Current_User_Activity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/updatematerialToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:title="Update"
+        app:navigationIcon="@drawable/back"
+        app:popupTheme="@style/MyPopupMenu"
+        app:titleTextColor="@color/black" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:cardCornerRadius="70dp"
+        app:cardBackgroundColor="@color/gray"
+        app:cardElevation="0dp"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/loginuserdp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/userplaceeholder"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="20dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            android:layout_marginTop="15dp"
+            app:startIconDrawable="@drawable/galleryupdate">
+
+            <EditText
+                android:id="@+id/update_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:maxLines="1"
+                android:hint="Update Your Image(only image url)"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            android:textSize="15sp"
+            android:layout_marginTop="15dp"
+            app:startIconDrawable="@drawable/user">
+
+            <EditText
+                android:id="@+id/update_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:maxLines="1"
+                android:hint="Update Your Name"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textColor="@color/green"
+            android:textSize="9sp"
+            android:text="name include only 25 charecters"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            android:layout_marginTop="10dp"
+            app:startIconDrawable="@drawable/about">
+
+            <EditText
+                android:id="@+id/update_about"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:maxLines="1"
+                android:hint="Update Your About"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textColor="@color/green"
+            android:textSize="9sp"
+            android:text="about include only 25 charecters"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            android:layout_marginTop="10dp"
+            app:startIconDrawable="@drawable/linkupdate">
+
+            <EditText
+                android:id="@+id/update_links"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:hint="Update Your Link"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/updatebtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="UPDATE"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginStart="0dp"
+            android:textSize="10sp"
+            android:drawableLeft="@drawable/lock"
+            android:drawablePadding="15dp"
+            android:text="Your personal messages are "/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            android:text="end-to-end encrypted."/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
