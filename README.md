@@ -19,9 +19,36 @@ A fully functional WhatsApp Clone Android application, developed using Java and 
 
 
 
-<img width="200" height="400" alt="Screenshot_2026-04-29-17-06-15-47_dd3a49b371f1d17da348279e1b35846f" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" />
+## 📸 App Screenshots
 
-<img width="200" height="400" fload="left" alt="Screenshot_2026-04-29-17-06-15-47_dd3a49b371f1d17da348279e1b35846f" src="https://github.com/user-attachments/assets/f20f531c-471d-4cb9-8d1f-6cddc3c1d546" />
+<div align="center">
+
+  <img width="200" height="400" alt="App Screenshot 1" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
+  <img width="200" height="400" alt="App Screenshot 2" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
+  <img width="200" height="400" alt="App Screenshot 3" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
+  <img width="200" height="400" alt="App Screenshot 4" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
+  <img width="200" height="400" alt="App Screenshot 5" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
+  <img width="200" height="400" alt="App Screenshot 6" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
+  <img width="200" height="400" alt="App Screenshot 7" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
+  <img width="200" height="400" alt="App Screenshot 8" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
+  <img width="200" height="400" alt="App Screenshot 9" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
+  <img width="200" height="400" alt="App Screenshot 10" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
+  <img width="200" height="400" alt="App Screenshot 11" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
+  <img width="200" height="400" alt="App Screenshot 12" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
+  <img width="200" height="400" alt="App Screenshot 13" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
+  <img width="200" height="400" alt="App Screenshot 14" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
+  <img width="200" height="400" alt="App Screenshot 15" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
+  <img width="200" height="400" alt="App Screenshot 16" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
+  <img width="200" height="400" alt="App Screenshot 17" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
+  <img width="200" height="400" alt="App Screenshot 18" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
+  <img width="200" height="400" alt="App Screenshot 19" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
+  <img width="200" height="400" alt="App Screenshot 20" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
+  <img width="200" height="400" alt="App Screenshot 21" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
+  <img width="200" height="400" alt="App Screenshot 22" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
+  <img width="200" height="400" alt="App Screenshot 23" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
+  <img width="200" height="400" alt="App Screenshot 24" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" />
+
+</div>
 
 
 
