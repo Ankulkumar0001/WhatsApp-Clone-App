@@ -19,9 +19,8 @@ A fully functional WhatsApp Clone Android application, developed using Java and 
 
 
 
-| ![Screen 1](<img width="200" height="400" alt="Screenshot_2026-04-29-17-06-15-47_dd3a49b371f1d17da348279e1b35846f" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" />
-) | ![Screen 2](screenshots/img2.png) | ![Screen 3](screenshots/img3.png) | ![Screen 4](screenshots/img4.png) | ![Screen 5](screenshots/img5.png) |
-| ![Screen 6](screenshots/img6.png) | ![Screen 7](screenshots/img7.png) | ![Screen 8](screenshots/img8.png) | ![Screen 9](screenshots/img9.png) | ![Screen 10](screenshots/img10.png) |
+<img width="200" height="400" alt="Screenshot_2026-04-29-17-06-15-47_dd3a49b371f1d17da348279e1b35846f" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" />
+
 
 ## ⚙️ How to Run
 1. **Clone the repository:**
