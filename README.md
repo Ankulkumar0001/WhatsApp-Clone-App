@@ -22,4 +22,4 @@ A fully functional WhatsApp Clone Android application, developed using Java and 
 ## ⚙️ How to Run
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/whatsapp-clone.git](https://github.com/your-username/whatsapp-clone.git)
+   git clone [https://github.com/Ankulkumar0001/whatsapp-clone.git](https://github.com/Ankulkumar0001/whatsapp-clone.git)
