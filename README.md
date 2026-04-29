@@ -21,7 +21,7 @@ A fully functional WhatsApp Clone Android application, developed using Java and 
 
 ## 📸 App Screenshots
 
-<div align="center">
+<div align="center" style="display:flex;flex-direction:column">
 
   <img width="200" height="400" alt="App Screenshot 1" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
   <img width="200" height="400" alt="App Screenshot 2" src="https://github.com/user-attachments/assets/792ed945-4196-4bf2-a811-2bae5e6a0b09" /> 
